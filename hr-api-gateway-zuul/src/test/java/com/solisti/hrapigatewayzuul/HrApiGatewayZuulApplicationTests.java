@@ -3,10 +3,10 @@ package com.solisti.hrapigatewayzuul;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class HrApiGatewayZuulApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
