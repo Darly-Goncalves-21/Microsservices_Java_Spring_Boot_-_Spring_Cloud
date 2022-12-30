@@ -33,6 +33,13 @@ public class WorkerResource {
 	
 	@GetMapping
 	public ResponseEntity<List<Worker>> finALL(){
+		
+//		try {
+//			Thread.sleep(1000L);
+//		}catch (Exception e) {
+//			// TODO: handle exception
+//		}
+//		
 		List<Worker> list = repository.findAll();
 		return  ResponseEntity.ok(list);
 	}
