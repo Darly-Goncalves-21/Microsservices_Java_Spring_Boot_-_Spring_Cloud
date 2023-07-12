@@ -39,7 +39,7 @@ public class UserResource {
 		}
 		
 		@GetMapping(value = "/search")
-		public ResponseEntity<User> findId(@RequestParam("email") String email){
+		public ResponseEntity<User> findByEmail(@RequestParam("email") String email){
 			
 			//logger.info("PORTA = " + env.getProperty("local.server.port"));
 			

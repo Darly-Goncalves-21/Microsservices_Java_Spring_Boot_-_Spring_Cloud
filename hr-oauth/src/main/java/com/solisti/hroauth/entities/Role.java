@@ -1,4 +1,4 @@
-package com.solisti.hroauth;
+package com.solisti.hroauth.entities;
 
 import java.io.Serializable;
 
